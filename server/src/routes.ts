@@ -13,6 +13,8 @@ routes.put('/user/:id', userController.update);
 
 routes.post('/filme', filmesController.create);
 routes.get('/filme', filmesController.get);
+routes.delete('/filme/:id', filmesController.delete);
+routes.put('/filme/:id', filmesController.update);
 
 
 export default routes;
